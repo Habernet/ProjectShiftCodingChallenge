@@ -3,11 +3,15 @@ let alertDurhamStatus = () => {
   alert("Durham is awesome!");
 };
 
-// Problem 2
+// Problem 2 and Problem 3
 const bands = ["Kiss", "Aerosmith", "ACDC", "Led Zeppelin", "Nickelback"];
 
 let bandAlertLooper = () => {
   bands.forEach(band => {
-    alert(`I love ${band}!`);
+    if (band === "Nickelback") {
+      alert(`I DON'T love Nickelback!`);
+    } else {
+      alert(`I love ${band}!`);
+    }
   });
 };
