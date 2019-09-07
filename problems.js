@@ -1,3 +1,4 @@
-let alertDurhamStatus = {
-  // When the button is clicked you will alert "Durham is awesome!"
+// Problem 1
+let alertDurhamStatus = () => {
+  alert("Durham is awesome!");
 };
