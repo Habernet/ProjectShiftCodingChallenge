@@ -15,3 +15,16 @@ let bandAlertLooper = () => {
     }
   });
 };
+
+const array = [34, 203, 16, 46, 34, 432, 342, 124, 33, 188, 12];
+
+let findAverage = arr => {
+  // parse the array and add it to a total
+  let total = 0;
+  for (let i = 0; i < arr.length; i++) {
+    total += i;
+  }
+  // divide the total by the length of the array
+  let average = total / arr.length;
+  alert(`Average: ${average}`);
+};
